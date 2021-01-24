@@ -1,0 +1,78 @@
+#map {
+      width: 1200px;
+      height: 650px;
+      top: 5px;
+      left: 150px;
+      /*position: absolute;
+      
+      bottom: 10px;      
+      right: 10px;*/
+    }
+
+    #controls {
+      /*margin-left: 10px;*/
+      /*padding-top: 10px;*/
+
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .slider.range {
+      display: none;
+    }
+    .slider-container {
+      margin-left: 20px;
+    }
+    /* slider root element */
+    .slider {
+      display: inline-block;
+      background:#3C72E6 url("../../raw.githubusercontent.com/jquerytools/jquerytools.github.com/master/media/img/gradient/h30.png")/*tpa=https://raw.githubusercontent.com/jquerytools/jquerytools.github.com/master/media/img/gradient/h30.png*/ repeat-x 0 0;
+      height:9px;
+      position:relative;
+      cursor:pointer;
+      border:1px solid #333;
+      width:100px;
+      margin-top:10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      -moz-box-shadow:inset 0 0 8px #000;
+    }
+    /* progress bar (enabled with progress: true) */
+    .progress {
+      height:9px;
+      background-color:#C5FF00;
+      display:none;
+      opacity:0.6;
+    }
+    /* drag handle */
+    .handle {
+      background:#fff url("../../raw.githubusercontent.com/jquerytools/jquerytools.github.com/master/media/img/gradient/h30.png")/*tpa=https://raw.githubusercontent.com/jquerytools/jquerytools.github.com/master/media/img/gradient/h30.png*/ repeat-x 0 0;
+      height:20px;
+      width:20px;
+      top:-7px;
+      position:absolute;
+      margin-top:1px;
+      border:1px solid #000;
+      cursor:move;
+      -moz-box-shadow:0 0 6px #000;
+      -webkit-box-shadow:0 0 6px #000;
+      -moz-border-radius:14px;
+      -webkit-border-radius:14px;
+    }
+    /* the input field */
+    .range {
+      border:1px inset #ddd;
+      font-size:20px;
+      margin:0 0 0 15px;
+      padding:3px 0;
+      text-align:center;
+      width:50px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+    }
